@@ -3,7 +3,11 @@
   "version": "2.1.26",
   "description": "Koleksi ikon SVG buatan Badrian sebagai React components.",
   "main": "./dist/index.cjs.js",
-  "homepage": "https://portfolio-badriana.vercel.app/badrian-icons", 
+  "homepage": "https://portfolio-badriana.vercel.app/badrian-icons",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/badriana400952/badrian-icon"
+  },
   "module": "./dist/index.esm.js",
   "types": "./dist/index.d.ts",
   "files": [
@@ -45,8 +49,10 @@
     "icons",
     "react",
     "svg",
-    "badrian"
+    "badrian",
+    "react-icon",
+    "next"
   ],
-  "author": "Badrian",
+  "author": "Badriana",
   "license": "MIT"
 }
