@@ -1,0 +1,10 @@
+import React from 'react';
+
+const DoneRoundDuotone: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+<circle cx="12" cy="12" r="8" fill="currentColor" fillOpacity="0.25"/>
+<path d="M8.5 11L10.7929 13.2929C11.1834 13.6834 11.8166 13.6834 12.2071 13.2929L19.5 6" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round"/>
+</svg>
+);
+
+export default DoneRoundDuotone;

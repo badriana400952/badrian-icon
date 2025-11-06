@@ -1,0 +1,11 @@
+import React from 'react';
+
+const SortAlfa: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+<path d="M6 20H18" stroke="currentColor" strokeWidth="2"/>
+<path d="M9 12H15" stroke="currentColor" strokeWidth="2"/>
+<path d="M7 17L10.1165 8.27376C10.9024 6.0734 11.2953 4.97321 12 4.97321C12.7047 4.97321 13.0976 6.07339 13.8835 8.27375L17 17" stroke="currentColor" strokeWidth="2"/>
+</svg>
+);
+
+export default SortAlfa;

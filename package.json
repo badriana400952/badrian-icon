@@ -1,0 +1,51 @@
+{
+  "name": "badrian-icon",
+  "version": "2.1.26",
+  "description": "Koleksi ikon SVG buatan Badrian sebagai React components.",
+  "main": "./dist/index.cjs.js",
+  "module": "./dist/index.esm.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.cjs.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "tsc --watch",
+    "generate": "node generate-index.mjs",
+    "files": "node generate-icon.mjs",
+    "convert": "node convert-svg.mjs",
+    "patch": "npm version patch && npm run build",
+    "minor": "npm version minor",
+    "major": "npm version major",
+    "tai": "npm run build && npm version patch && npm publish --access public",
+    "release": "npm version patch && npm run build && npm publish --access public"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^29.0.0",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "rollup-plugin-dts": "^6.2.3",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.9.3"
+  },
+  "keywords": [
+    "icons",
+    "react",
+    "svg",
+    "badrian"
+  ],
+  "author": "Badrian",
+  "license": "MIT"
+}
