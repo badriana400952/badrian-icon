@@ -107,7 +107,8 @@ MIT License © 2025 — [Badriana](https://github.com/badriana)
 
 ## 🌐 Tautan
 
-* 💻 **NPM:** [https://www.npmjs.com/package/badrian-icon](https://www.npmjs.com/package/badrian-icon)
-* 🧠 **GitHub:** [https://github.com/badriana/badrian-icon](https://github.com/badriana/badrian-icon)
+*  **NPM:** [https://www.npmjs.com/package/badrian-icon](https://www.npmjs.com/package/badrian-icon)
+*  **GitHub:** [https://github.com/badriana400952/badrian-icon](https://github.com/badriana400952/badrian-icon)
+*  **HomePage:** [https://portfolio-badriana.vercel.app/badrian-icons](https://portfolio-badriana.vercel.app/badrian-icons)
 
 # badrian-icon
