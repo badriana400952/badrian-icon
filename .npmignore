@@ -2,3 +2,9 @@ src/
 node_modules/
 rollup.config.js
 tsconfig.json
+node_modules/
+dist/
+
+*.log
+.DS_Store
+.env
