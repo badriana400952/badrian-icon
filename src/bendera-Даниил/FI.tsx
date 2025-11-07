@@ -1,0 +1,17 @@
+import React from 'react';
+
+const FI: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
+  <svg width="513" height="342" viewBox="0 0 513 342" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+<g clip-path="url(#clip0_301_1258)">
+<path d="M0 0H513V341.967H0V0Z" fill="white"/>
+<path d="M513 129.553V212.414H204.098V341.967H121.236V212.414H0V129.553H121.236V0H204.098V129.553H513Z" fill="#2E52B2"/>
+</g>
+<defs>
+<clipPath id="clip0_301_1258">
+<rect width="513" height="341.967" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+);
+
+export default FI;

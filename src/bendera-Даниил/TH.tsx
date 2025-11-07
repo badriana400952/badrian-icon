@@ -1,0 +1,18 @@
+import React from 'react';
+
+const TH: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
+  <svg width="513" height="342" viewBox="0 0 513 342" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+<g clip-path="url(#clip0_301_228)">
+<path d="M0 0.000976562H513V341.994H0V0.000976562Z" fill="white"/>
+<path d="M0 108.936H513V233.06H0V108.936Z" fill="#0052B4"/>
+<path d="M0 0.000976562H513V54.6295H0V0.000976562ZM0 287.37H513V341.999H0V287.37Z" fill="#D80027"/>
+</g>
+<defs>
+<clipPath id="clip0_301_228">
+<rect width="513" height="342" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+);
+
+export default TH;

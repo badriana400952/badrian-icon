@@ -1,0 +1,18 @@
+import React from 'react';
+
+const DE: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
+  <svg width="513" height="342" viewBox="0 0 513 342" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+<g clip-path="url(#clip0_301_1357)">
+<path d="M0 -0.00195312H513V342.002H0V-0.00195312Z" fill="#D80027"/>
+<path d="M0 -0.00195312H513V113.995H0V-0.00195312Z" fill="black"/>
+<path d="M0 227.994H513V341.991H0V227.994Z" fill="#FFDA44"/>
+</g>
+<defs>
+<clipPath id="clip0_301_1357">
+<rect width="513" height="342" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+);
+
+export default DE;

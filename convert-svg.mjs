@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 
 const inputDir = "./icon"; // folder asal svg
-const outputDir = "./src/travelandmap"; // folder hasil jsx
+const outputDir = "./src/bendera-Даниил"; // folder hasil jsx
 
 if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
 
