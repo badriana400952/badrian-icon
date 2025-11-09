@@ -1938,6 +1938,9 @@ export { default as WidgetAddLight } from './Leonid-Tsvetkov/all-empat/WidgetAdd
 export { default as WidgetAlt } from './Leonid-Tsvetkov/all-empat/WidgetAlt'
 export { default as WidgetAltLight } from './Leonid-Tsvetkov/all-empat/WidgetAltLight'
 export { default as WidgetLight } from './Leonid-Tsvetkov/all-empat/WidgetLight'
+export { default as ColorMode } from './Leonid-Tsvetkov/all-empat/WidgetLight'
+export { default as ColorModeLight } from './Leonid-Tsvetkov/all-empat/WidgetLight'
+export { default as ColorPicker } from './Leonid-Tsvetkov/all-empat/WidgetLight'
 
 
 
@@ -2328,3 +2331,6 @@ export { default as YandexBrowser } from './Rounak-Bose-soscial/YandexBrowser';
 export { default as Youtube } from './Rounak-Bose-soscial/Youtube';
 export { default as Zerpply } from './Rounak-Bose-soscial/Zerpply';
 export { default as Zoom } from './Rounak-Bose-soscial/Zoom';
+
+
+
