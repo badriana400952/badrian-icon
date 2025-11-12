@@ -1,0 +1,9 @@
+import React from 'react';
+
+const Dovetail: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
+  <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+<path fillRule="evenodd" clipRule="evenodd" d="M93.5 62.5L71.625 75V50L49.75 37.3625L71.625 25L93.5 37.5V62.5ZM49.7469 37.5L27.8719 50V25L6 12.5L27.875 0L49.7469 12.5V37.5ZM49.7469 87.5L27.8719 100L27.875 75L6 62.5L27.8719 50L49.7469 62.5V87.5Z" fill="#230078"/>
+</svg>
+);
+
+export default Dovetail;

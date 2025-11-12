@@ -1,0 +1,9 @@
+import React from 'react';
+
+const Code: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+<path d="M15 7L20 12L15 17M9 17L4 12L9 7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+</svg>
+);
+
+export default Code;

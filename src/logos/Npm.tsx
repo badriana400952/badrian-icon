@@ -1,0 +1,10 @@
+import React from 'react';
+
+const Npm: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
+  <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+<path d="M0 0H100V100H0V0Z" fill="#CC0000"/>
+<path d="M49.66 10.74H10.74V89.256H49.656V30.54H69.456V89.256H89.256V10.74H49.66Z" fill="white"/>
+</svg>
+);
+
+export default Npm;

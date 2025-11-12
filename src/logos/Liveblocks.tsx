@@ -1,0 +1,10 @@
+import React from 'react';
+
+const Liveblocks: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
+  <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+<path fillRule="evenodd" clipRule="evenodd" d="M67.5 22.9991H0L20 42.9991V70.4991L67.5 22.9991Z" fill="black"/>
+<path fillRule="evenodd" clipRule="evenodd" d="M32.5 77.9991H100L80 57.9991V30.4991L32.5 77.9991Z" fill="black"/>
+</svg>
+);
+
+export default Liveblocks;

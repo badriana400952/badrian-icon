@@ -1,0 +1,12 @@
+import React from 'react';
+
+const Backbonejs: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
+  <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+<path d="M10 0V54.0821L50.255 77.0288V61.4305L23.3248 46.0792V21.9672L50.255 37.3182V22.947L10 0Z" fill="#002A41"/>
+<path d="M90.5097 0V54.0821L50.255 77.0288V61.4305L77.1848 46.0792V21.9672L50.2546 37.3182V22.947L90.51 0H90.5097Z" fill="#0071B5"/>
+<path d="M10 100V45.9178L50.255 22.9708V38.5691L23.3248 53.9201V76.8058L50.255 61.4547V77.053L10 100Z" fill="#0071B5"/>
+<path d="M90.5097 100V45.9178L50.255 22.9708V38.5691L77.1848 53.9201V76.8058L50.2546 61.4547V77.053L90.5097 100Z" fill="#002A41"/>
+</svg>
+);
+
+export default Backbonejs;

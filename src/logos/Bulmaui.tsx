@@ -1,0 +1,9 @@
+import React from 'react';
+
+const Bulmaui: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
+  <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+<path d="M16.0002 68.7499L22.2503 24.9997L47.25 0L78.5001 31.2501L59.7502 50L84.7502 74.9997L47.2503 100L16.0002 68.7499Z" fill="#00D1B2"/>
+</svg>
+);
+
+export default Bulmaui;
