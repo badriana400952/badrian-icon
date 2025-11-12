@@ -1,6 +1,6 @@
 import React from 'react';
 
-const React: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
+const Reacts: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
   <svg width="101" height="100" viewBox="0 0 101 100" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <path d="M50.3067 58.8163C55.1758 58.8163 59.1229 54.8691 59.1229 50.0001C59.1229 45.131 55.1758 41.1838 50.3067 41.1838C45.4376 41.1838 41.4905 45.131 41.4905 50.0001C41.4905 54.8691 45.4376 58.8163 50.3067 58.8163Z" fill="#61DAFB"/>
 <path d="M50.3066 68.0626C76.4333 68.0626 97.6132 59.9757 97.6132 50C97.6132 40.0244 76.4333 31.9375 50.3066 31.9375C24.1799 31.9375 3 40.0244 3 50C3 59.9757 24.1799 68.0626 50.3066 68.0626Z" stroke="#61DAFB" strokeWidth="5"/>
@@ -9,4 +9,4 @@ const React: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
 </svg>
 );
 
-export default React;
+export default Reacts;

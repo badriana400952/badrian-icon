@@ -3075,7 +3075,7 @@ export { default as Qwik } from './logos/Qwik';
 export { default as Radixui } from './logos/Radixui';
 export { default as Rails } from './logos/Rails';
 export { default as Railway } from './logos/Railway';
-export { default as React } from './logos/React';
+export { default as Reacts } from './logos/React';
 export { default as Reactquery } from './logos/Reactquery';
 export { default as Reactrouter } from './logos/Reactrouter';
 export { default as Redhat } from './logos/Redhat';
