@@ -1,6 +1,6 @@
 {
   "name": "badrian-icon",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "description": "Koleksi ikon SVG buatan Badrian sebagai React components.",
   "main": "./dist/index.cjs.js",
   "homepage": "https://portfolio-badriana.vercel.app/badrian-icons",
