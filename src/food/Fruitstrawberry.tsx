@@ -1,0 +1,17 @@
+import React from 'react';
+
+const Fruitstrawberry: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
+  <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+<path d="M24 47C35.25 47 50 17.012 32 15H16C-2.00001 17.012 12.75 47 24 47Z" stroke="CurrentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M22 11C19.3478 11 16.8043 9.94643 14.9289 8.07107C13.0536 6.1957 12 3.65216 12 1C14.6522 1 17.1957 2.05357 19.0711 3.92893C20.9464 5.8043 22 8.34784 22 11Z" stroke="CurrentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M26 11C28.6522 11 31.1957 9.94643 33.0711 8.07107C34.9464 6.1957 36 3.65216 36 1C33.3478 1 30.8043 2.05357 28.9289 3.92893C27.0536 5.8043 26 8.34784 26 11Z" stroke="CurrentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M18.5 30L20.5 32" stroke="CurrentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M27.5 30L29.5 32" stroke="CurrentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M14 22L16 24" stroke="CurrentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M23 22L25 24" stroke="CurrentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M32 22L34 24" stroke="CurrentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M23 37L25 39" stroke="CurrentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+</svg>
+);
+
+export default Fruitstrawberry;

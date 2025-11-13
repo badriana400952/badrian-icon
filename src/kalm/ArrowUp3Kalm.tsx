@@ -1,0 +1,9 @@
+import React from 'react';
+
+const ArrowUp3Kalm: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+<path d="M12 17.9999H9.33004C6.02005 17.9999 4.66005 15.6499 6.32005 12.7799L7.66004 10.4699L9.00005 8.15995C10.66 5.28995 13.37 5.28995 15.03 8.15995L16.37 10.4699L17.71 12.7799C19.37 15.6499 18.01 17.9999 14.7 17.9999H12Z" stroke="CurrentColor" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+</svg>
+);
+
+export default ArrowUp3Kalm;

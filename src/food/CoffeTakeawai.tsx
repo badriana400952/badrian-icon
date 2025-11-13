@@ -1,0 +1,12 @@
+import React from 'react';
+
+const CoffeTakeawai: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
+  <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+<path d="M8.69 19.266C11.336 19.146 16.144 19 24 19C31.856 19 36.663 19.145 39.31 19.266" stroke="CurrentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M10.514 36.72C12.881 36.843 17.212 37 24.001 37C30.79 37 35.121 36.843 37.488 36.72" stroke="CurrentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M13.052 3.353C12.367 3.424 11.773 3.802 11.462 4.416C11.2455 4.8479 11.0542 5.29197 10.889 5.746C10.0394 5.78424 9.19034 5.83358 8.34202 5.894C7.55002 5.951 6.83302 6.351 6.47002 7.057C5.99567 7.99648 5.62965 8.98684 5.37902 10.009C5.10602 11.09 5.90502 12.087 7.01802 12.152C9.51802 12.3 14.644 12.5 24.001 12.5C33.357 12.5 38.482 12.3 40.983 12.152C42.096 12.087 42.895 11.09 42.622 10.009C42.3714 8.98682 42.0054 7.99646 41.531 7.057C41.168 6.351 40.451 5.951 39.659 5.894C39.059 5.85 38.223 5.798 37.112 5.746C36.9465 5.29195 36.7549 4.84787 36.538 4.416C36.228 3.802 35.634 3.424 34.949 3.353C33.533 3.205 30.41 3 24.001 3C17.591 3 14.468 3.205 13.051 3.353H13.052Z" stroke="CurrentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M8.18402 12.215C9.04302 26.115 10.59 37.622 11.274 42.281C11.467 43.603 12.525 44.608 13.858 44.699C15.878 44.838 19.258 45 24 45C28.742 45 32.123 44.838 34.142 44.7C35.475 44.608 36.533 43.603 36.727 42.28C37.41 37.622 38.957 26.116 39.817 12.215" stroke="CurrentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+</svg>
+);
+
+export default CoffeTakeawai;

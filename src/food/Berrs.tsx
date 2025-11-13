@@ -1,0 +1,13 @@
+import React from 'react';
+
+const Berrs: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
+  <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+<path d="M30.76 13.388C32.51 13.552 33.881 14.708 34.187 16.438C34.582 18.672 35 22.56 35 29C35 32.287 34.891 34.909 34.732 36.986C34.374 41.656 30.839 44.721 26.157 44.896C24.472 44.959 22.438 45 20 45C17.562 45 15.528 44.959 13.843 44.896C9.161 44.721 5.627 41.656 5.268 36.986C5.11 34.909 5 32.285 5 29C5 22.561 5.418 18.673 5.813 16.437C6.119 14.707 7.49 13.552 9.24 13.387C11.295 13.196 14.688 13 20 13C25.312 13 28.705 13.195 30.76 13.388Z" stroke="CurrentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M32.165 13.768C32.7638 12.8696 33.0557 11.8014 32.997 10.7233C32.9384 9.64523 32.5323 8.61508 31.8395 7.78692C31.1468 6.95877 30.2046 6.3771 29.1538 6.12891C28.103 5.88072 27.0001 5.97933 26.01 6.41C25.3892 5.36997 24.5089 4.50895 23.4554 3.91121C22.4019 3.31347 21.2113 2.99949 20 3C18.9408 2.99906 17.8953 3.23894 16.9425 3.7015C15.9896 4.16405 15.1544 4.83719 14.5 5.67C13.4498 5.06302 12.2147 4.85854 11.0248 5.09467C9.83499 5.3308 8.77157 5.99143 8.03269 6.95347C7.29381 7.91552 6.92987 9.11337 7.00868 10.3238C7.08748 11.5343 7.60365 12.6749 8.46102 13.533" stroke="CurrentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M35 18H37.265C40.165 18 42.627 20.081 42.828 22.974C43.0586 26.3207 43.0586 29.6793 42.828 33.026C42.628 35.92 40.165 38 37.265 38H35" stroke="CurrentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M15 21V37" stroke="CurrentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M25 21V37" stroke="CurrentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+</svg>
+);
+
+export default Berrs;

@@ -1,0 +1,15 @@
+import React from 'react';
+
+const EmptyWalletAddKalm: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
+  <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+<path d="M18.7916 14.1145C18.3541 14.5416 18.1041 15.1562 18.1666 15.8125C18.2604 16.9375 19.2916 17.7604 20.4166 17.7604H22.3958V18.9999C22.3958 21.1562 20.6354 22.9166 18.4791 22.9166H7.94787C8.27079 22.6458 8.55204 22.3125 8.77079 21.9375C9.15621 21.3125 9.37496 20.5729 9.37496 19.7916C9.37496 17.4895 7.51038 15.625 5.20829 15.625C4.22913 15.625 3.32288 15.9687 2.60413 16.5416V11.9896C2.60413 9.8333 4.36454 8.07288 6.52079 8.07288H18.4791C20.6354 8.07288 22.3958 9.8333 22.3958 11.9896V13.4896H20.2916C19.7083 13.4896 19.177 13.7187 18.7916 14.1145Z" stroke="CurrentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M2.60413 12.927V8.16668C2.60413 6.9271 3.36454 5.82289 4.52079 5.38539L12.7916 2.26039C14.0833 1.7708 15.4687 2.72917 15.4687 4.11459V8.07291" stroke="CurrentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M23.4987 14.5523V16.6982C23.4987 17.2711 23.0404 17.7398 22.457 17.7606H20.4154C19.2904 17.7606 18.2591 16.9377 18.1654 15.8127C18.1029 15.1565 18.3529 14.5419 18.7904 14.1148C19.1758 13.7189 19.7071 13.4898 20.2904 13.4898H22.457C23.0404 13.5106 23.4987 13.9793 23.4987 14.5523Z" stroke="CurrentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M7.29163 12.5H14.5833" stroke="CurrentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M9.37496 19.7917C9.37496 20.5729 9.15621 21.3125 8.77079 21.9375C8.55204 22.3125 8.27079 22.6458 7.94787 22.9167C7.21871 23.5729 6.26038 23.9583 5.20829 23.9583C3.68746 23.9583 2.36454 23.1458 1.64579 21.9375C1.26038 21.3125 1.04163 20.5729 1.04163 19.7917C1.04163 18.4792 1.64579 17.3021 2.60413 16.5417C3.32288 15.9688 4.22913 15.625 5.20829 15.625C7.51038 15.625 9.37496 17.4896 9.37496 19.7917Z" stroke="CurrentColor" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M6.76212 19.7703H3.65796" stroke="CurrentColor" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M5.20825 18.2495V21.3641" stroke="CurrentColor" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+</svg>
+);
+
+export default EmptyWalletAddKalm;

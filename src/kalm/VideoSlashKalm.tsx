@@ -1,0 +1,12 @@
+import React from 'react';
+
+const VideoSlashKalm: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+<path d="M16.63 7.57999C16.63 7.57999 16.66 6.62999 16.63 6.31999C16.46 4.27999 15.13 3.57999 12.52 3.57999H6.21C3.05 3.57999 2 4.62999 2 7.78999V16.21C2 17.47 2.38 18.74 3.37 19.55L4 20" stroke="CurrentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M16.74 10.95V16.21C16.74 19.37 15.69 20.42 12.53 20.42H7.26001" stroke="CurrentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M22 6.73999V15.81C22 17.48 20.88 18.06 19.52 17.1L16.74 15.15" stroke="CurrentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M22.02 2.19L2.02002 22.19" stroke="CurrentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+</svg>
+);
+
+export default VideoSlashKalm;

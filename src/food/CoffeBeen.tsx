@@ -1,0 +1,10 @@
+import React from 'react';
+
+const CoffeBeen: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
+  <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+<path d="M35.2 36.868C27.832 44.177 17.012 47.893 9.35001 40.893C8.56897 40.1795 7.82054 39.431 7.10701 38.65C0.107006 30.988 3.82301 20.168 11.132 12.8C11.6859 12.2419 12.2419 11.6859 12.8 11.132C20.168 3.822 30.988 0.107 38.65 7.107C39.4311 7.82052 40.1795 8.56895 40.893 9.35C47.893 17.012 44.177 27.832 36.868 35.2C36.3142 35.7581 35.7582 36.3141 35.2 36.868Z" stroke="CurrentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M40.69 9.1C32.536 9.973 26.427 14.62 24 24C21.574 33.381 15.464 38.027 7.30896 38.9" stroke="CurrentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+</svg>
+);
+
+export default CoffeBeen;
