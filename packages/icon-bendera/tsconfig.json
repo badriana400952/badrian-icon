@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    /* Target modern agar mendukung JSX transform React 17+ */
+    "target": "ESNext",
+    "module": "ESNext",
+
+    /* Penting untuk React */
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+
+    /* Output & type definitions */
+    "declaration": true,
+    "declarationDir": "dist/types",
+    "outDir": "dist",
+
+    /* Resolusi dan kompatibilitas */
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+
+    /* Konsistensi & performa */
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Untuk proyek besar / monorepo (seperti punyamu) */
+    "composite": true,
+
+    /* Opsi strictness */
+    "strict": true,
+
+    /* Supaya plugin Rollup bisa jalan tanpa error isolatedModules */
+    "isolatedModules": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}

@@ -1,58 +1,84 @@
 {
   "name": "badrian-icon",
   "version": "3.0.4",
-  "description": "Koleksi ikon SVG buatan Badrian sebagai React components.",
-  "main": "./dist/index.cjs.js",
-  "homepage": "https://portfolio-badriana.vercel.app/badrian-icons",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/badriana400952/badrian-icon"
-  },
+  "private": false,
+
+  "main": "./dist/index.js",
   "module": "./dist/index.esm.js",
   "types": "./dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
+
+  "description": "Koleksi ikon SVG buatan Badrian sebagai React components.",
+  "workspaces": ["packages/*"],
+
   "exports": {
     ".": {
       "import": "./dist/index.esm.js",
-      "require": "./dist/index.cjs.js",
+      "require": "./dist/index.js",
       "types": "./dist/index.d.ts"
+    },
+    "./food": {
+      "import": "./packages/icon-food/dist/index.esm.js",
+      "require": "./packages/icon-food/dist/index.cjs.js",
+      "types": "./packages/icon-food/dist/index.d.ts"
+    },
+    "./bendera": {
+      "import": "./packages/icon-bendera/dist/index.esm.js",
+      "require": "./packages/icon-bendera/dist/index.cjs.js",
+      "types": "./packages/icon-bendera/dist/index.d.ts"
+    },
+    "./kalm": {
+      "import": "./packages/icon-kalm/dist/index.esm.js",
+      "require": "./packages/icon-kalm/dist/index.cjs.js",
+      "types": "./packages/icon-kalm/dist/index.d.ts"
+    },
+    "./instagram": {
+      "import": "./packages/icon-instagram/dist/index.esm.js",
+      "require": "./packages/icon-instagram/dist/index.cjs.js",
+      "types": "./packages/icon-instagram/dist/index.d.ts"
+    },
+    "./kryston": {
+      "import": "./packages/icon-kryston/dist/index.esm.js",
+      "require": "./packages/icon-kryston/dist/index.cjs.js",
+      "types": "./packages/icon-kryston/dist/index.d.ts"
+    },
+    "./leonid": {
+      "import": "./packages/icon-leonid/dist/index.esm.js",
+      "require": "./packages/icon-leonid/dist/index.cjs.js",
+      "types": "./packages/icon-leonid/dist/index.d.ts"
+    },
+    "./logos": {
+      "import": "./packages/icon-logos/dist/index.esm.js",
+      "require": "./packages/icon-logos/dist/index.cjs.js",
+      "types": "./packages/icon-logos/dist/index.d.ts"
+    },
+    "./rounak": {
+      "import": "./packages/icon-Rounak/dist/index.esm.js",
+      "require": "./packages/icon-Rounak/dist/index.cjs.js",
+      "types": "./packages/icon-Rounak/dist/index.d.ts"
     }
   },
+
+  "files": ["dist", "packages/*/dist"],
+
   "scripts": {
-    "build": "rollup -c",
-    "dev": "tsc --watch",
-    "generate": "node generate-index.mjs",
-    "files": "node generate-icon.mjs",
-    "convert": "node convert-svg.mjs",
-    "patch": "npm version patch && npm run build",
-    "minor": "npm version minor",
-    "major": "npm version major",
-    "tai": "npm run build && npm version patch && npm publish --access public",
-    "release": "npm version patch && npm run build && npm publish --access public"
+    "build:all": "npm run build:packages",
+    "build:packages": "npm --workspaces run build",
+    "tai": "npm version patch && npm publish --access public"
+
+
   },
+
   "peerDependencies": {
     "react": ">=17.0.0",
     "react-dom": ">=17.0.0"
   },
+
   "devDependencies": {
     "@rollup/plugin-commonjs": "^29.0.0",
     "@rollup/plugin-node-resolve": "^16.0.3",
-    "@types/react": "^19.2.2",
-    "@types/react-dom": "^19.2.2",
-    "rollup-plugin-dts": "^6.2.3",
+    "rollup": "^4.21.0",
     "rollup-plugin-typescript2": "^0.36.0",
-    "typescript": "^5.9.3"
-  },
-  "keywords": [
-    "icons",
-    "react",
-    "svg",
-    "badrian",
-    "react-icon",
-    "next"
-  ],
-  "author": "Badriana",
-  "license": "MIT"
+    "rollup-plugin-dts": "^6.2.3",
+    "typescript": "^5.4.0"
+  }
 }

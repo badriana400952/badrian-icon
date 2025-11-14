@@ -1,0 +1,45 @@
+{
+  "name": "@badrian/kalm",
+  "version": "1.0.0",
+  "description": "Koleksi ikon SVG gaya Kalm buatan Badrian sebagai React components.",
+  "main": "./dist/index.cjs.js",
+  "module": "./dist/index.esm.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.cjs.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "release": "pnpm run build && pnpm version patch && pnpm publish --access public"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^29.0.0",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "rollup-plugin-dts": "^6.2.3",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.9.3"
+  },
+  "keywords": [
+    "icons",
+    "react",
+    "svg",
+    "badrian",
+    "react-icon",
+    "kalm",
+    "next"
+  ],
+  "author": "Badriana",
+  "license": "MIT"
+}
