@@ -3,6 +3,9 @@
   "version": "3.0.7",
   "private": false,
   "description": "Koleksi ikon SVG buatan Badrian sebagai React components.",
+  "repository": "https://github.com/badrian/badrian-icon",
+  "license": "MIT",
+  "homepage": "https://portfolio-badriana.vercel.app/badrian-icons",
   "workspaces": [
     "packages/*"
   ],
@@ -69,9 +72,11 @@
   "devDependencies": {
     "@rollup/plugin-commonjs": "^29.0.0",
     "@rollup/plugin-node-resolve": "^16.0.3",
+    "@types/react": "^19.2.4",
+    "@types/react-dom": "^19.2.3",
     "rollup": "^4.21.0",
-    "rollup-plugin-typescript2": "^0.36.0",
     "rollup-plugin-dts": "^6.2.3",
+    "rollup-plugin-typescript2": "^0.36.0",
     "typescript": "^5.4.0"
   }
 }
