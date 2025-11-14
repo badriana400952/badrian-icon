@@ -1,6 +1,6 @@
 {
   "name": "badrian-icon",
-  "version": "3.0.6",
+  "version": "3.0.7",
   "private": false,
   "description": "Koleksi ikon SVG buatan Badrian sebagai React components.",
   "workspaces": [
@@ -48,17 +48,16 @@
       "types": "./packages/icon-Rounak/dist/index.d.ts"
     }
   },
-"files": [
-  "packages/icon-food/dist",
-  "packages/icon-bendera/dist",
-  "packages/icon-kalm/dist",
-  "packages/icon-instagram/dist",
-  "packages/icon-kryston/dist",
-  "packages/icon-leonid/dist",
-  "packages/icon-logos/dist",
-  "packages/icon-Rounak/dist"
-]
-,
+  "files": [
+    "packages/icon-food/dist",
+    "packages/icon-bendera/dist",
+    "packages/icon-kalm/dist",
+    "packages/icon-instagram/dist",
+    "packages/icon-kryston/dist",
+    "packages/icon-leonid/dist",
+    "packages/icon-logos/dist",
+    "packages/icon-Rounak/dist"
+  ],
   "scripts": {
     "build:all": "npm --workspaces run build",
     "tai": "npm version patch && npm publish --access public"
