@@ -2,19 +2,11 @@
   "name": "badrian-icon",
   "version": "3.0.5",
   "private": false,
-  "main": "./dist/index.js",
-  "module": "./dist/index.esm.js",
-  "types": "./dist/index.d.ts",
   "description": "Koleksi ikon SVG buatan Badrian sebagai React components.",
   "workspaces": [
     "packages/*"
   ],
   "exports": {
-    ".": {
-      "import": "./dist/index.esm.js",
-      "require": "./dist/index.js",
-      "types": "./dist/index.d.ts"
-    },
     "./food": {
       "import": "./packages/icon-food/dist/index.esm.js",
       "require": "./packages/icon-food/dist/index.cjs.js",
@@ -57,12 +49,10 @@
     }
   },
   "files": [
-    "dist",
     "packages/*/dist"
   ],
   "scripts": {
-    "build:all": "npm run build:packages",
-    "build:packages": "npm --workspaces run build",
+    "build:all": "npm --workspaces run build",
     "tai": "npm version patch && npm publish --access public"
   },
   "peerDependencies": {
