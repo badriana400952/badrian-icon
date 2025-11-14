@@ -1,6 +1,6 @@
 {
   "name": "badrian-icon",
-  "version": "3.0.8",
+  "version": "3.0.9",
   "private": false,
   "description": "Koleksi ikon SVG buatan Badrian sebagai React components.",
   "repository": "https://github.com/badrian/badrian-icon",
