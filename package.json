@@ -5,7 +5,7 @@
   "description": "Koleksi ikon SVG buatan Badrian sebagai React components.",
   "repository": "https://github.com/badrian/badrian-icon",
   "license": "MIT",
-  "homepage": "https://portfolio-badriana.vercel.app/badrian-icons",
+  "homepage": "https://portfolio-badriana.vercel.app/components/Introduction",
   "workspaces": [
     "packages/*"
   ],
