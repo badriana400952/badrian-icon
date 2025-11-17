@@ -1,6 +1,6 @@
 {
   "name": "badrian-icon",
-  "version": "3.0.12",
+  "version": "3.0.11",
   "private": false,
   "description": "Koleksi ikon SVG buatan Badrian sebagai React components.",
   "repository": "https://github.com/badrian/badrian-icon",
@@ -52,6 +52,7 @@
     }
   },
   "files": [
+    "README.md",
     "packages/icon-food/dist",
     "packages/icon-bendera/dist",
     "packages/icon-kalm/dist",
