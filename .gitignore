@@ -1,14 +1,13 @@
 dist/
-
-*.log
-.DS_Store
-.env
-echo "dist/" >> .gitignore
-echo "node_modules/" >> .gitignore
-
 node_modules/
 dist/
 .rpt2_cache/
 .rollup.cache/
 *.log
+.DS_Store
+.env
+ .gitignore
+ .gitignore
+
+
 

@@ -3,7 +3,7 @@
   "version": "3.0.15",
   "private": false,
   "description": "Koleksi ikon SVG buatan Badrian sebagai React components.",
-  "repository": "https://github.com/badrian/badrian-icon",
+  "repository": "https://github.com/badriana400952/badrian-icon",
   "license": "MIT",
   "homepage": "https://portfolio-badriana.vercel.app/components/Introduction",
   "workspaces": [
