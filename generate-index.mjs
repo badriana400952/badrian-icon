@@ -45,18 +45,26 @@ fs.writeFileSync("dist/index.cjs.js", cjsContent);
 console.log("✅ dist/index.cjs.js generated!");
 
 // 4. Generate standalone dist/index.d.ts
-let dtsParts = ["import React from 'react';\n"];
+let dtsLines = ["import React from 'react';\n"];
 
 for (const p of packages) {
   const dtsPath = `packages/${p}/dist/index.d.ts`;
   if (fs.existsSync(dtsPath)) {
-    let content = fs.readFileSync(dtsPath, "utf8");
-    // Remove duplicate import React from 'react'
-    content = content.replace(/import\s+React\s+from\s+['"]react['"];?/g, "");
-    dtsParts.push(`// --- ${p} ---\n` + content.trim());
+    const fileContent = fs.readFileSync(dtsPath, "utf8");
+    const fileLines = fileContent.split(/\r?\n/);
+    dtsLines.push(`// --- ${p} ---`);
+    for (let line of fileLines) {
+      const trimmed = line.trim();
+      if (trimmed.startsWith("import React") || trimmed.startsWith("import type React")) continue;
+      if (trimmed.startsWith("export {")) continue;
+      if (trimmed.startsWith("declare const ")) {
+        line = line.replace("declare const ", "export declare const ");
+      }
+      dtsLines.push(line);
+    }
   }
 }
 
-fs.writeFileSync("dist/index.d.ts", dtsParts.join("\n\n") + "\n");
-console.log("✅ Standalone dist/index.d.ts generated!");
+fs.writeFileSync("dist/index.d.ts", dtsLines.join("\n") + "\n");
+console.log("✅ Standalone dist/index.d.ts generated with explicit line-by-line exports!");
 
