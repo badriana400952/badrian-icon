@@ -44,10 +44,19 @@ let cjsContent = `'use strict';\n${cjsRequires}\n\nmodule.exports = {\n${cjsExpo
 fs.writeFileSync("dist/index.cjs.js", cjsContent);
 console.log("✅ dist/index.cjs.js generated!");
 
-// 4. Generate dist/index.d.ts
-let dtsContent = packages
-  .map(p => `export * from "../packages/${p}/dist/index.d.ts";`)
-  .join("\n");
-fs.writeFileSync("dist/index.d.ts", dtsContent + "\n");
-console.log("✅ dist/index.d.ts generated!");
+// 4. Generate standalone dist/index.d.ts
+let dtsParts = ["import React from 'react';\n"];
+
+for (const p of packages) {
+  const dtsPath = `packages/${p}/dist/index.d.ts`;
+  if (fs.existsSync(dtsPath)) {
+    let content = fs.readFileSync(dtsPath, "utf8");
+    // Remove duplicate import React from 'react'
+    content = content.replace(/import\s+React\s+from\s+['"]react['"];?/g, "");
+    dtsParts.push(`// --- ${p} ---\n` + content.trim());
+  }
+}
+
+fs.writeFileSync("dist/index.d.ts", dtsParts.join("\n\n") + "\n");
+console.log("✅ Standalone dist/index.d.ts generated!");
 
