@@ -1,13 +1,8 @@
 dist/
 node_modules/
-dist/
 .rpt2_cache/
 .rollup.cache/
 *.log
 .DS_Store
 .env
- .gitignore
- .gitignore
-
-
-
+.npmrc

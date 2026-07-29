@@ -1,6 +1,9 @@
 {
-  "name": "badrian-icon",
+"name": "@badriana400952/badrian-icon",
   "version": "3.0.16",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "private": false,
   "description": "Koleksi ikon SVG buatan Badrian sebagai React components.",
   "repository": "https://github.com/badriana400952/badrian-icon",
@@ -9,7 +12,15 @@
   "workspaces": [
     "packages/*"
   ],
+  "main": "./dist/index.cjs.js",
+  "module": "./dist/index.esm.js",
+  "types": "./dist/index.d.ts",
   "exports": {
+    ".": {
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.cjs.js",
+      "types": "./dist/index.d.ts"
+    },
     "./food": {
       "import": "./packages/icon-food/dist/index.esm.js",
       "require": "./packages/icon-food/dist/index.cjs.js",
@@ -53,6 +64,7 @@
   },
   "files": [
     "README.md",
+    "dist",
     "packages/icon-food/dist",
     "packages/icon-bendera/dist",
     "packages/icon-kalm/dist",
@@ -63,8 +75,9 @@
     "packages/icon-Rounak/dist"
   ],
   "scripts": {
-    "build:all": "npm --workspaces run build",
-    "tai": "npm version patch && npm publish --access public"
+    "build:all": "npm --workspaces run build && node generate-index.mjs",
+    "generate:index": "node generate-index.mjs",
+    "tai": "npm run build:all && npm version patch && npm publish --access public"
   },
   "peerDependencies": {
     "react": ">=17.0.0",
